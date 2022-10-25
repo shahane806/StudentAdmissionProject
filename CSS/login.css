@@ -1,0 +1,22 @@
+*{
+    margin:0px;
+    padding:0px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.form,.LoginContainer{
+    display:flex;
+    justify-content: space-around;
+    margin:auto;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.form{
+    margin-top: 10%;
+
+}
+input{
+    margin:5px;
+    padding:10px;
+}

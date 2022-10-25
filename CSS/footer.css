@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding:0px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    /* border:1px solid red; */
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    max-width: 90%;
+    margin-top: 10px;
+    
+}   

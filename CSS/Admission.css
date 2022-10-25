@@ -1,0 +1,25 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.LoginContainer{
+    display:flex;
+    justify-content: space-around;
+    margin:auto;
+    align-items: center;
+    flex-direction: column;
+    
+}
+::-webkit-scrollbar{
+    display:none;
+}
+.PersonalDetails{
+    margin:5px;
+}
+input{
+    margin:5px;
+    padding:10px;
+}

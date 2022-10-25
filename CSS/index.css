@@ -1,0 +1,40 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: white;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.buttonDiv{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 30px;
+}
+.loginBtn{
+    margin-right: 30px;
+}
+button{
+    padding:5px;
+    background-color: transparent;
+    border:1px solid grey;
+    width: 11rem;
+}
+button:hover{
+    background:whitesmoke;
+}
+.mainHeading{
+    font-size: xx-large;
+}

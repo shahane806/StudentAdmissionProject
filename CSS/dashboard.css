@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding:0px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dashboardNavBar{
+    border:1px solid black;
+    height:5rem;
+    display: flex;
+    width: 100%;
+}
+
+.dashboardMainBody{
+    display:flex;
+    
+}
+.dashboardSideMenu{
+    flex:20%;
+    border:1px solid black;
+    height:80vh;
+    padding:15px;
+}
+.dashboardMainContent{
+    flex:80%;
+    padding:15px;
+    height:80vh;
+    border:1px solid black;
+}
+.dashboardFooter{
+    position:fixed;
+    width: 100%;
+    
+    border:1px solid black;
+    height: 5rem;
+}
+::-webkit-scrollbar{
+    display:none;
+}
+iframe{
+    border:none;
+}
+.dashboardMainContent::-webkit-scrollbar{
+    display: none;
+}
